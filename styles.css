@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.left-section{
+    width: 30%;
+    background-image: url('hans-isaacson-DD6q8hahc_Q-unsplash.jpg');
+    background-size: contain;
+}
+.logo{
+    display: flex;
+}
+.leftimage{
+    width: 50px;
+    height: 50px;
+}
+.footerdiv{
+    position: absolute;
+    bottom: 0px;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+    color: #980;
+}
