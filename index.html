@@ -19,9 +19,37 @@
 </div>
 <div class="right-section">
     <h1 class="form-heading">Start filling your form</h1>
-    <form action="" method="post">
+    <div class="formsection">
+        <form action="" method="post">
+            <p>Sign up!</p>
+            <fieldset>
+
+            <label for="name">Full Name</label>
+            <input type="text" name="name" id="name" placeholder="John Smith" required>
+            </fieldset>
+            <fieldset>
+                <label for="occupation">Occupation</label>
+            <select>
+                <option value="0" selected>Student</option>
+                <option value="1">Teacher</option>
+                <option value="2">Guardian</option>
+            </select>
+            </fieldset>
+            <fieldset> <label for="email">Email</label>
+                <input type="email" name="email" id="email" required placeholder="johnsmith@123mail.com"></fieldset>
+            <fieldset>
+                <textarea name="about" id="about"></textarea>
+            </fieldset>
+          <fieldset><button type="submit">join</button></fieldset>
+            
+
+            
+           
+
 
     </form>
+</div>
+    
 </div>
 </body>
 </html>
